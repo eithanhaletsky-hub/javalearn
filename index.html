@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaLearn – מדעי המחשב</title>
+  <meta name="description" content="לימוד Java למדעי המחשב לפי תוכנית הלימודים של משרד החינוך – יסודות, עיצוב תוכנה ומבני נתונים, עם תרגול ומשחק.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+  <header class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="תפריט">☰</button>
+    <a class="logo" href="#/">☕ <span>Java</span>Learn</a>
+    <nav class="topnav">
+      <a href="#/" data-nav="home">בית</a>
+      <a href="#/game" data-nav="game">🎮 משחק</a>
+      <a href="#/challenge" data-nav="challenge">⚡ אתגר</a>
+      <a href="#/cheatsheet" data-nav="cheatsheet">📋 דף עזר</a>
+    </nav>
+    <div class="xp-pill" id="xpPill" title="הדרגה שלך"></div>
+    <button class="theme-btn" id="themeBtn" aria-label="החלף ערכת צבעים">🌓</button>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar"></aside>
+    <main id="app" class="main"></main>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
